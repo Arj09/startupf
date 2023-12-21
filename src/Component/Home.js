@@ -103,7 +103,7 @@ function Home() {
 
     {
       !pop ? (
-        <div class={"w-2/5  bg-slate-500 flex flex-col  absolute m-0 top-0 right-0 left-0 bottom-0 "}>
+        <div class={"w-2/5 absolute  bg-slate-500 flex flex-col   mx-auto top-44 left-96 "}>
           <text class="flex justify-end cursor-pointer text-white py-2 px-5 text-2xl"   onClick={handleClose}>x</text>
           <div  class=" w-4/5 h-60  mx-auto my-1 px-5 flex flex-col align-middle " >
             <text class="text-white pt-5 ">{`Company Name : ${data[key].Company_Name}`}</text>

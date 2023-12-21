@@ -51,7 +51,7 @@ export const  Add = ()=>{
             console.log(err)
            
         })
-    }, [number])
+    }, [number, data])
     return(
         <>
         <button class='flex flex-row mx-5 my-5 px-6 py-1 bg-red-600 text-white rounded cursor-pointer' onClick={handleBack}>Back</button>
